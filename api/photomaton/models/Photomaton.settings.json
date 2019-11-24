@@ -1,0 +1,24 @@
+{
+  "connection": "default",
+  "collectionName": "photomatons",
+  "info": {
+    "name": "photomaton",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "test": {
+      "type": "integer"
+    },
+    "photo": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/photomatons",
+      "handler": "Photomaton.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/photomatons/count",
+      "handler": "Photomaton.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/photomatons/:id",
+      "handler": "Photomaton.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/photomatons",
+      "handler": "Photomaton.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/photomatons/:id",
+      "handler": "Photomaton.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/photomatons/:id",
+      "handler": "Photomaton.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
